@@ -2,7 +2,7 @@
 
 So this is the eWAS Full Stack Developer Assesment.
 
-I have completed the Backend successfully and I tested it with postman. The frontend is unfinished due to running out of time. 
+I have completed the Backend successfully and I tested it with postman. The frontend, though, is unfinished due to lack of time. 
 
 
 ## INSTRUCTIONS TO START THE APP:
