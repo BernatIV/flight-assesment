@@ -8,4 +8,6 @@ Their lack of respect showed me they didn't like my Angular code, which is vastl
 For node.js and Angular we need to run `npm install` to create the node_modules. 
 
 The MySQL Database has been stored in AWS so the connection will happen automatically when running node.js, with `node app.js`.
+
+## Testing
 A Postman Collection is provided to test out the backend section.
