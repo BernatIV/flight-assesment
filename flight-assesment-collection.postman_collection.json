@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "0c9332f4-cfc4-40a8-8a31-053004545935",
+		"name": "flight-assesment-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllFlights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/allFlights/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"allFlights",
+						""
+					]
+				},
+				"description": "gets all the flights in the DB to present them in the side bar of the web page"
+			},
+			"response": []
+		},
+		{
+			"name": "/commentsByFlightId/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"flight_id\": \"2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/commentsByFlightId/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"commentsByFlightId",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/createComment/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\": \"weather cloudy\",\n\t\"tag\": \"r\",\n\t\"userId\": \"3\",\n\t\"flightId\": \"2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/createComment/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"createComment",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
