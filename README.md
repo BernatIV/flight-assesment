@@ -1,1 +1,14 @@
-# flight-assesment
+# flights-assesment
+
+So this is the eWAS Full Stack Developer Assesment.
+
+I have completed the Backend successfully and I tested it with postman. The frontend is unfinished due to running out of time. 
+
+
+## INSTRUCTIONS TO START THE APP:
+
+For node.js and Angular we have to run npm install to create the node_modules. 
+
+The MySQL Database has been stored in AWS so the connection will happen automatically when running node.js. 
+
+In the front we can only the side bar and a call to backend should work. 
